@@ -13,6 +13,11 @@ public class Sach {
         this.namXuatBan = namXuatBan;
         this.soLuong = soLuong;
     }
+    public Sach(String tieuDe, String tacGia, int namXuatBan){
+        this.tieuDe = tieuDe;
+        this.tacGia = tacGia;
+        this.namXuatBan = namXuatBan;
+    }
     public String getMaSach(){
         return maSach;
     }
